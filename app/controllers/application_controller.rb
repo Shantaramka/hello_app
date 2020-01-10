@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
     render html: "Настенька 🦆 — мася!"
   end
   
+  def julia
+    render html: "Юленька Драгомир пиздатенький будущий юрист!"
+  end
+  
 end
